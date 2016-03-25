@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DA8374D1C9FC7140061C47F /* TransionLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA8374C1C9FC7140061C47F /* TransionLayerAnimation.m */; };
+		4DC81A541C9A9C6900DEBC9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC81A531C9A9C6900DEBC9C /* main.m */; };
+		4DC81A571C9A9C6900DEBC9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC81A561C9A9C6900DEBC9C /* AppDelegate.m */; };
+		4DC81A5A1C9A9C6900DEBC9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC81A591C9A9C6900DEBC9C /* ViewController.m */; };
+		4DC81A5D1C9A9C6900DEBC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC81A5B1C9A9C6900DEBC9C /* Main.storyboard */; };
+		4DC81A5F1C9A9C6900DEBC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC81A5E1C9A9C6900DEBC9C /* Assets.xcassets */; };
+		4DC81A621C9A9C6900DEBC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC81A601C9A9C6900DEBC9C /* LaunchScreen.storyboard */; };
+		4DC81A6D1C9A9C6900DEBC9C /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC81A6C1C9A9C6900DEBC9C /* _________Tests.m */; };
+		4DC81A781C9A9C6900DEBC9C /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC81A771C9A9C6900DEBC9C /* _________UITests.m */; };
+		4DC81A871C9A9CE600DEBC9C /* TransAnimationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC81A861C9A9CE600DEBC9C /* TransAnimationModel.m */; };
+		4DC81A8A1C9AA30C00DEBC9C /* TwoCV.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC81A891C9AA30C00DEBC9C /* TwoCV.m */; };
+		4DD3ECCB1C9AB2F300174759 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DD3ECC91C9AB2F300174759 /* 01.jpg */; };
+		4DD3ECCC1C9AB2F300174759 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DD3ECCA1C9AB2F300174759 /* 02.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC81A691C9A9C6900DEBC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC81A471C9A9C6900DEBC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC81A4E1C9A9C6900DEBC9C;
+			remoteInfo = "自定义导航转场动画";
+		};
+		4DC81A741C9A9C6900DEBC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC81A471C9A9C6900DEBC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC81A4E1C9A9C6900DEBC9C;
+			remoteInfo = "自定义导航转场动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DA8374B1C9FC7140061C47F /* TransionLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransionLayerAnimation.h; sourceTree = "<group>"; };
+		4DA8374C1C9FC7140061C47F /* TransionLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransionLayerAnimation.m; sourceTree = "<group>"; };
+		4DC81A4F1C9A9C6900DEBC9C /* 自定义导航转场动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义导航转场动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC81A531C9A9C6900DEBC9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC81A551C9A9C6900DEBC9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DC81A561C9A9C6900DEBC9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DC81A581C9A9C6900DEBC9C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DC81A591C9A9C6900DEBC9C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DC81A5C1C9A9C6900DEBC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC81A5E1C9A9C6900DEBC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC81A611C9A9C6900DEBC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC81A631C9A9C6900DEBC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC81A681C9A9C6900DEBC9C /* 自定义导航转场动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义导航转场动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC81A6C1C9A9C6900DEBC9C /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		4DC81A6E1C9A9C6900DEBC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC81A731C9A9C6900DEBC9C /* 自定义导航转场动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义导航转场动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC81A771C9A9C6900DEBC9C /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		4DC81A791C9A9C6900DEBC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC81A851C9A9CE600DEBC9C /* TransAnimationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransAnimationModel.h; sourceTree = "<group>"; };
+		4DC81A861C9A9CE600DEBC9C /* TransAnimationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransAnimationModel.m; sourceTree = "<group>"; };
+		4DC81A881C9AA30C00DEBC9C /* TwoCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoCV.h; sourceTree = "<group>"; };
+		4DC81A891C9AA30C00DEBC9C /* TwoCV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoCV.m; sourceTree = "<group>"; };
+		4DD3ECC91C9AB2F300174759 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		4DD3ECCA1C9AB2F300174759 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC81A4C1C9A9C6900DEBC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC81A651C9A9C6900DEBC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC81A701C9A9C6900DEBC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC81A461C9A9C6900DEBC9C = {
+			isa = PBXGroup;
+			children = (
+				4DC81A511C9A9C6900DEBC9C /* 自定义导航转场动画 */,
+				4DC81A6B1C9A9C6900DEBC9C /* 自定义导航转场动画Tests */,
+				4DC81A761C9A9C6900DEBC9C /* 自定义导航转场动画UITests */,
+				4DC81A501C9A9C6900DEBC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC81A501C9A9C6900DEBC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC81A4F1C9A9C6900DEBC9C /* 自定义导航转场动画.app */,
+				4DC81A681C9A9C6900DEBC9C /* 自定义导航转场动画Tests.xctest */,
+				4DC81A731C9A9C6900DEBC9C /* 自定义导航转场动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC81A511C9A9C6900DEBC9C /* 自定义导航转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				4DD3ECC91C9AB2F300174759 /* 01.jpg */,
+				4DD3ECCA1C9AB2F300174759 /* 02.jpg */,
+				4DC81A551C9A9C6900DEBC9C /* AppDelegate.h */,
+				4DC81A561C9A9C6900DEBC9C /* AppDelegate.m */,
+				4DC81A581C9A9C6900DEBC9C /* ViewController.h */,
+				4DC81A591C9A9C6900DEBC9C /* ViewController.m */,
+				4DC81A881C9AA30C00DEBC9C /* TwoCV.h */,
+				4DC81A891C9AA30C00DEBC9C /* TwoCV.m */,
+				4DC81A5B1C9A9C6900DEBC9C /* Main.storyboard */,
+				4DC81A5E1C9A9C6900DEBC9C /* Assets.xcassets */,
+				4DC81A601C9A9C6900DEBC9C /* LaunchScreen.storyboard */,
+				4DC81A631C9A9C6900DEBC9C /* Info.plist */,
+				4DC81A521C9A9C6900DEBC9C /* Supporting Files */,
+				4DC81A851C9A9CE600DEBC9C /* TransAnimationModel.h */,
+				4DC81A861C9A9CE600DEBC9C /* TransAnimationModel.m */,
+				4DA8374B1C9FC7140061C47F /* TransionLayerAnimation.h */,
+				4DA8374C1C9FC7140061C47F /* TransionLayerAnimation.m */,
+			);
+			path = "自定义导航转场动画";
+			sourceTree = "<group>";
+		};
+		4DC81A521C9A9C6900DEBC9C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC81A531C9A9C6900DEBC9C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC81A6B1C9A9C6900DEBC9C /* 自定义导航转场动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC81A6C1C9A9C6900DEBC9C /* _________Tests.m */,
+				4DC81A6E1C9A9C6900DEBC9C /* Info.plist */,
+			);
+			path = "自定义导航转场动画Tests";
+			sourceTree = "<group>";
+		};
+		4DC81A761C9A9C6900DEBC9C /* 自定义导航转场动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DC81A771C9A9C6900DEBC9C /* _________UITests.m */,
+				4DC81A791C9A9C6900DEBC9C /* Info.plist */,
+			);
+			path = "自定义导航转场动画UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC81A4E1C9A9C6900DEBC9C /* 自定义导航转场动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC81A7C1C9A9C6900DEBC9C /* Build configuration list for PBXNativeTarget "自定义导航转场动画" */;
+			buildPhases = (
+				4DC81A4B1C9A9C6900DEBC9C /* Sources */,
+				4DC81A4C1C9A9C6900DEBC9C /* Frameworks */,
+				4DC81A4D1C9A9C6900DEBC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义导航转场动画";
+			productName = "自定义导航转场动画";
+			productReference = 4DC81A4F1C9A9C6900DEBC9C /* 自定义导航转场动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC81A671C9A9C6900DEBC9C /* 自定义导航转场动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC81A7F1C9A9C6900DEBC9C /* Build configuration list for PBXNativeTarget "自定义导航转场动画Tests" */;
+			buildPhases = (
+				4DC81A641C9A9C6900DEBC9C /* Sources */,
+				4DC81A651C9A9C6900DEBC9C /* Frameworks */,
+				4DC81A661C9A9C6900DEBC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC81A6A1C9A9C6900DEBC9C /* PBXTargetDependency */,
+			);
+			name = "自定义导航转场动画Tests";
+			productName = "自定义导航转场动画Tests";
+			productReference = 4DC81A681C9A9C6900DEBC9C /* 自定义导航转场动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DC81A721C9A9C6900DEBC9C /* 自定义导航转场动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC81A821C9A9C6900DEBC9C /* Build configuration list for PBXNativeTarget "自定义导航转场动画UITests" */;
+			buildPhases = (
+				4DC81A6F1C9A9C6900DEBC9C /* Sources */,
+				4DC81A701C9A9C6900DEBC9C /* Frameworks */,
+				4DC81A711C9A9C6900DEBC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC81A751C9A9C6900DEBC9C /* PBXTargetDependency */,
+			);
+			name = "自定义导航转场动画UITests";
+			productName = "自定义导航转场动画UITests";
+			productReference = 4DC81A731C9A9C6900DEBC9C /* 自定义导航转场动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC81A471C9A9C6900DEBC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "王雪飞";
+				TargetAttributes = {
+					4DC81A4E1C9A9C6900DEBC9C = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4DC81A671C9A9C6900DEBC9C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4DC81A4E1C9A9C6900DEBC9C;
+					};
+					4DC81A721C9A9C6900DEBC9C = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4DC81A4E1C9A9C6900DEBC9C;
+					};
+				};
+			};
+			buildConfigurationList = 4DC81A4A1C9A9C6900DEBC9C /* Build configuration list for PBXProject "自定义导航转场动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC81A461C9A9C6900DEBC9C;
+			productRefGroup = 4DC81A501C9A9C6900DEBC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC81A4E1C9A9C6900DEBC9C /* 自定义导航转场动画 */,
+				4DC81A671C9A9C6900DEBC9C /* 自定义导航转场动画Tests */,
+				4DC81A721C9A9C6900DEBC9C /* 自定义导航转场动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC81A4D1C9A9C6900DEBC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD3ECCC1C9AB2F300174759 /* 02.jpg in Resources */,
+				4DC81A621C9A9C6900DEBC9C /* LaunchScreen.storyboard in Resources */,
+				4DC81A5F1C9A9C6900DEBC9C /* Assets.xcassets in Resources */,
+				4DD3ECCB1C9AB2F300174759 /* 01.jpg in Resources */,
+				4DC81A5D1C9A9C6900DEBC9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC81A661C9A9C6900DEBC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC81A711C9A9C6900DEBC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC81A4B1C9A9C6900DEBC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC81A5A1C9A9C6900DEBC9C /* ViewController.m in Sources */,
+				4DC81A871C9A9CE600DEBC9C /* TransAnimationModel.m in Sources */,
+				4DC81A571C9A9C6900DEBC9C /* AppDelegate.m in Sources */,
+				4DC81A541C9A9C6900DEBC9C /* main.m in Sources */,
+				4DA8374D1C9FC7140061C47F /* TransionLayerAnimation.m in Sources */,
+				4DC81A8A1C9AA30C00DEBC9C /* TwoCV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC81A641C9A9C6900DEBC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC81A6D1C9A9C6900DEBC9C /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC81A6F1C9A9C6900DEBC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC81A781C9A9C6900DEBC9C /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC81A6A1C9A9C6900DEBC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC81A4E1C9A9C6900DEBC9C /* 自定义导航转场动画 */;
+			targetProxy = 4DC81A691C9A9C6900DEBC9C /* PBXContainerItemProxy */;
+		};
+		4DC81A751C9A9C6900DEBC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC81A4E1C9A9C6900DEBC9C /* 自定义导航转场动画 */;
+			targetProxy = 4DC81A741C9A9C6900DEBC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DC81A5B1C9A9C6900DEBC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC81A5C1C9A9C6900DEBC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC81A601C9A9C6900DEBC9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC81A611C9A9C6900DEBC9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC81A7A1C9A9C6900DEBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC81A7B1C9A9C6900DEBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC81A7D1C9A9C6900DEBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义导航转场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chuangyibao.com.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DC81A7E1C9A9C6900DEBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义导航转场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chuangyibao.com.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DC81A801C9A9C6900DEBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义导航转场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chuangyibao.com.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义导航转场动画.app/自定义导航转场动画";
+			};
+			name = Debug;
+		};
+		4DC81A811C9A9C6900DEBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义导航转场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chuangyibao.com.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义导航转场动画.app/自定义导航转场动画";
+			};
+			name = Release;
+		};
+		4DC81A831C9A9C6900DEBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义导航转场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chuangyibao.com.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义导航转场动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4DC81A841C9A9C6900DEBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义导航转场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chuangyibao.com.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义导航转场动画";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC81A4A1C9A9C6900DEBC9C /* Build configuration list for PBXProject "自定义导航转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC81A7A1C9A9C6900DEBC9C /* Debug */,
+				4DC81A7B1C9A9C6900DEBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC81A7C1C9A9C6900DEBC9C /* Build configuration list for PBXNativeTarget "自定义导航转场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC81A7D1C9A9C6900DEBC9C /* Debug */,
+				4DC81A7E1C9A9C6900DEBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC81A7F1C9A9C6900DEBC9C /* Build configuration list for PBXNativeTarget "自定义导航转场动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC81A801C9A9C6900DEBC9C /* Debug */,
+				4DC81A811C9A9C6900DEBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC81A821C9A9C6900DEBC9C /* Build configuration list for PBXNativeTarget "自定义导航转场动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC81A831C9A9C6900DEBC9C /* Debug */,
+				4DC81A841C9A9C6900DEBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC81A471C9A9C6900DEBC9C /* Project object */;
+}
